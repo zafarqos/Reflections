@@ -1,0 +1,5 @@
+How might using version control make you more confident to make changes that could break something?
+Z> Becasue I know that if I accidentally introduce a bug, I can locate the version in which it was introduved by using git log and then git checkout and running the code again and again. One I locate the commit where bug was introduced I can use git diff to see the difference between clean and dirty commits to see where exactly I code was wrong
+
+
+

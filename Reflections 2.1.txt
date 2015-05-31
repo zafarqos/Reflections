@@ -1,0 +1,6 @@
+:::::: LESSON 2 :::::::
+
+
+What happens when you initialize a repository? Why do you need to do it?
+
+Z> .git directory gets created. We neeed to do it ot create a repo

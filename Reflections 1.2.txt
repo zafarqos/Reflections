@@ -1,0 +1,8 @@
+
+
+Reflection Lesson 1
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Z> Since Git is code oriented
+
+

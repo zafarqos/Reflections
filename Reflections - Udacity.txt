@@ -1,0 +1,52 @@
+Refletion Lesson 1
+
+It is difficult to compare two codes with minor differences. There are software which help compare two files: 'fc' in windows and diff in linux/mac
+
+
+Reflection Lesson 1
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Z> Since Git is code oriented
+
+
+How can you use the commands git log and git diff to view the history of files?
+Z> firstr we use git log to het a list of all changes along with there id. Then we use git diff to see compare two commits using their IDs
+
+
+How might using version control make you more confident to make changes that could break something?
+Z> Becasue I know that if I accidentally introduce a bug, I can locate the version in which it was introduved by using git log and then git checkout and running the code again and again. One I locate the commit where bug was introduced I can use git diff to see the difference between clean and dirty commits to see where exactly I code was wrong
+
+
+
+:::::: LESSON 2 :::::::
+
+
+What happens when you initialize a repository? Why do you need to do it?
+
+Z> .git directory gets created. We neeed to do it ot create a repo
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Z> First use git diff to review the changes you have made. git add the files with changes you agree. then giot commit it and move to the next file with changes,if you see unwanted file changes, use rest hard carefully, after which you will see output of git diff to be none 
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Z> staging area is that was of working direcoty which as the files added before being committed. The working directory shows the files that are added and not added to staging area.
+It offeres the chanse to review files before committing them.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Z> When you need to make diffeent versions of a project with out one version affecting the state of the other one. 
+
+How do the diagrams help you visualize the branch structure?
+Z> It helps by giving us the state of branches in our repo, how they are connected and wherw you reside in tree. 
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Z> Two independantly developed branches of a tree are merged back ino the same one.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Z> Auto mergin seems smooth but may overlook conflicts that might result into code breaking

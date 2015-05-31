@@ -1,0 +1,6 @@
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Z> staging area is that was of working direcoty which as the files added before being committed. The working directory shows the files that are added and not added to staging area.
+It offeres the chanse to review files before committing them.
+
+

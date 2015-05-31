@@ -1,0 +1,4 @@
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Z> When you need to make diffeent versions of a project with out one version affecting the state of the other one. 
+

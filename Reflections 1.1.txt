@@ -1,0 +1,3 @@
+Refletion Lesson 1
+
+It is difficult to compare two codes with minor differences. There are software which help compare two files: 'fc' in windows and diff in linux/mac

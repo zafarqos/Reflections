@@ -1,0 +1,5 @@
+How can you use the staging area to make sure you have one commit per logical change?
+
+Z> First use git diff to review the changes you have made. git add the files with changes you agree. then giot commit it and move to the next file with changes,if you see unwanted file changes, use rest hard carefully, after which you will see output of git diff to be none 
+
+

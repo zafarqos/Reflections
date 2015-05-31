@@ -1,0 +1,4 @@
+How do the diagrams help you visualize the branch structure?
+Z> It helps by giving us the state of branches in our repo, how they are connected and wherw you reside in tree. 
+
+
